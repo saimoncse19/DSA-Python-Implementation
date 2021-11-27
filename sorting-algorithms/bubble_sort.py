@@ -7,7 +7,7 @@ def bubble_sort(arr: List[int]) -> List[int]:
     :param arr: a list of numbers / integers in our case
     :return: sorted list
 
-    Runtime Complexity: O(n)
+    Runtime Complexity: O(n^2)
     """
     length = len(arr) - 1
     for i in range(length):
