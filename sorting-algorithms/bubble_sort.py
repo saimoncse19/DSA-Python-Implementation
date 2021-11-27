@@ -2,6 +2,13 @@ from typing import List
 
 
 def bubble_sort(arr: List[int]) -> List[int]:
+    """
+
+    :param arr: a list of numbers / integers in our case
+    :return: sorted list
+
+    Runtime Complexity: O(n)
+    """
     length = len(arr) - 1
     for i in range(length):
         for j in range(length - i):
